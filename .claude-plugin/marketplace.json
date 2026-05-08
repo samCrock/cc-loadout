@@ -1,0 +1,60 @@
+{
+  "name": "cc-loadout",
+  "owner": {
+    "name": "samcrock"
+  },
+  "metadata": {
+    "description": "Skill bundle for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "graphify",
+      "description": "Any input (code, docs, papers, images) to knowledge graph with community detection",
+      "source": "./skills/graphify",
+      "strict": false
+    },
+    {
+      "name": "impeccable",
+      "description": "Frontend design vocabulary — anti-patterns and impeccable design principles",
+      "source": "./skills/impeccable",
+      "strict": false
+    },
+    {
+      "name": "context7",
+      "description": "Up-to-date code documentation for LLMs via ctx7",
+      "source": "./skills/context7",
+      "strict": false
+    },
+    {
+      "name": "caveman",
+      "description": "Ultra-compressed communication mode — 75% token reduction",
+      "source": "./skills/caveman",
+      "strict": false
+    },
+    {
+      "name": "grill-me",
+      "description": "Interview the user relentlessly about a plan or design until shared understanding",
+      "source": "./skills/grill-me",
+      "strict": false
+    },
+    {
+      "name": "huashu-design",
+      "description": "Type. Hit enter. A finished design lands in your lap.",
+      "source": "./skills/huashu-design",
+      "strict": false
+    },
+    {
+      "name": "gsap-core",
+      "description": "GSAP animation library skill for frontend development",
+      "source": "./skills/gsap-core",
+      "strict": false
+    },
+    {
+      "name": "taste-skill",
+      "description": "Anti-slop frontend framework for AI agents",
+      "source": "./skills/taste-skill",
+      "strict": false
+    }
+  ]
+}
