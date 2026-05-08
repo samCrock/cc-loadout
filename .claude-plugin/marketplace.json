@@ -55,6 +55,30 @@
       "description": "Anti-slop frontend framework for AI agents",
       "source": "./skills/taste-skill",
       "strict": false
+    },
+    {
+      "name": "higgsfield-generate",
+      "description": "Image/video generation with 30+ models plus Marketing Studio",
+      "source": "./skills/higgsfield-generate",
+      "strict": false
+    },
+    {
+      "name": "higgsfield-soul-id",
+      "description": "Train a face-faithful Soul Character",
+      "source": "./skills/higgsfield-soul-id",
+      "strict": false
+    },
+    {
+      "name": "higgsfield-product-photoshoot",
+      "description": "Brand-quality product imagery",
+      "source": "./skills/higgsfield-product-photoshoot",
+      "strict": false
+    },
+    {
+      "name": "higgsfield-marketplace-cards",
+      "description": "Marketplace main, secondary, and A+ style product cards",
+      "source": "./skills/higgsfield-marketplace-cards",
+      "strict": false
     }
   ]
 }
