@@ -11,73 +11,73 @@
     {
       "name": "graphify",
       "description": "Any input (code, docs, papers, images) to knowledge graph with community detection",
-      "source": "./skills/graphify",
+      "source": "./skills/knowledge/graphify",
       "strict": false
     },
     {
       "name": "impeccable",
       "description": "Frontend design vocabulary — anti-patterns and impeccable design principles",
-      "source": "./skills/impeccable",
+      "source": "./skills/frontend/impeccable",
       "strict": false
     },
     {
       "name": "context7",
       "description": "Up-to-date code documentation for LLMs via ctx7",
-      "source": "./skills/context7",
+      "source": "./skills/knowledge/context7",
       "strict": false
     },
     {
       "name": "caveman",
       "description": "Ultra-compressed communication mode — 75% token reduction",
-      "source": "./skills/caveman",
+      "source": "./skills/general/caveman",
       "strict": false
     },
     {
       "name": "grill-me",
       "description": "Interview the user relentlessly about a plan or design until shared understanding",
-      "source": "./skills/grill-me",
+      "source": "./skills/general/grill-me",
       "strict": false
     },
     {
       "name": "huashu-design",
       "description": "Type. Hit enter. A finished design lands in your lap.",
-      "source": "./skills/huashu-design",
+      "source": "./skills/frontend/huashu-design",
       "strict": false
     },
     {
       "name": "gsap-core",
       "description": "GSAP animation library skill for frontend development",
-      "source": "./skills/gsap-core",
+      "source": "./skills/frontend/gsap-core",
       "strict": false
     },
     {
       "name": "taste-skill",
       "description": "Anti-slop frontend framework for AI agents",
-      "source": "./skills/taste-skill",
+      "source": "./skills/frontend/taste-skill",
       "strict": false
     },
     {
       "name": "higgsfield-generate",
       "description": "Image/video generation with 30+ models plus Marketing Studio",
-      "source": "./skills/higgsfield-generate",
+      "source": "./skills/generative/higgsfield-generate",
       "strict": false
     },
     {
       "name": "higgsfield-soul-id",
       "description": "Train a face-faithful Soul Character",
-      "source": "./skills/higgsfield-soul-id",
+      "source": "./skills/generative/higgsfield-soul-id",
       "strict": false
     },
     {
       "name": "higgsfield-product-photoshoot",
       "description": "Brand-quality product imagery",
-      "source": "./skills/higgsfield-product-photoshoot",
+      "source": "./skills/generative/higgsfield-product-photoshoot",
       "strict": false
     },
     {
       "name": "higgsfield-marketplace-cards",
       "description": "Marketplace main, secondary, and A+ style product cards",
-      "source": "./skills/higgsfield-marketplace-cards",
+      "source": "./skills/generative/higgsfield-marketplace-cards",
       "strict": false
     }
   ]
