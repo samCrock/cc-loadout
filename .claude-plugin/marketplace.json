@@ -15,6 +15,12 @@
       "strict": false
     },
     {
+      "name": "gitnexus",
+      "description": "Zero-server code intelligence — knowledge graph + Graph RAG for codebase exploration",
+      "source": "./skills/knowledge/gitnexus",
+      "strict": false
+    },
+    {
       "name": "impeccable",
       "description": "Frontend design vocabulary — anti-patterns and impeccable design principles",
       "source": "./skills/frontend/impeccable",

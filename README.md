@@ -24,6 +24,13 @@ Skill bundle for Claude Code agents.
 |-------|-------------|
 | context7 | Up-to-date code documentation via ctx7 |
 | graphify | Any input to knowledge graph with community detection |
+| gitnexus | Zero-server code intelligence + Graph RAG agent |
+
+### DevTools
+
+| Tool | Description |
+|------|-------------|
+| gitnexus | Browser-based knowledge graph from GitHub repos |
 
 ### Frontend & Design
 
