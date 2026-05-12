@@ -89,7 +89,7 @@
     {
       "name": "skill-adder",
       "description": "Add a new skill to cc-loadout from a GitHub path — clones SKILL.md, updates apm.yml, marketplace.json, README.md",
-      "source": "./.apm/skills/internal/skill-adder",
+      "source": "./.apm/skills/productivity/skill-adder",
       "strict": false
     },
     {

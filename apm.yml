@@ -25,7 +25,6 @@ dependencies:
     - github.com/samcrock/cc-loadout/.apm/skills/knowledge/context7
     - github.com/samcrock/cc-loadout/.apm/skills/knowledge/gitnexus
     - github.com/samcrock/cc-loadout/.apm/skills/knowledge/graphify
-    # Internal
-    - github.com/samcrock/cc-loadout/.apm/skills/internal/skill-adder
-    # External
-    - github.com/mattpocock/skills/skills/productivity/handoff
+    # Productivity
+    - github.com/samcrock/cc-loadout/.apm/skills/productivity/skill-adder
+    - github.com/samcrock/cc-loadout/.apm/skills/productivity/handoff
