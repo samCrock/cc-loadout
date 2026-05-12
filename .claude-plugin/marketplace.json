@@ -91,6 +91,12 @@
       "description": "Add a new skill to cc-loadout from a GitHub path — clones SKILL.md, updates apm.yml, marketplace.json, README.md",
       "source": "./.apm/skills/internal/skill-adder",
       "strict": false
+    },
+    {
+      "name": "handoff",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "source": "./.apm/skills/productivity/handoff",
+      "strict": false
     }
   ]
 }

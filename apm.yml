@@ -27,3 +27,5 @@ dependencies:
     - github.com/samcrock/cc-loadout/.apm/skills/knowledge/graphify
     # Internal
     - github.com/samcrock/cc-loadout/.apm/skills/internal/skill-adder
+    # External
+    - github.com/mattpocock/skills/skills/productivity/handoff
