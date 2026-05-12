@@ -1,14 +1,26 @@
 # cc-loadout
 
-Skill suite for Claude Code agents — frontend design, generative AI, knowledge graphs, and compressed communication.
+Skill suite for Claude Code — frontend design, generative AI, knowledge graphs, compressed comms.
 
-## Install
+## Install (project-level)
+
+```bash
+git clone samcrock/cc-loadout my-project
+cd my-project
+apm install
+```
+
+Or from an existing repo:
 
 ```bash
 apm install samcrock/cc-loadout
 ```
 
-This reads `apm.yml` from the repo root, resolves all skill collections and agents, and installs them to your Claude Code skills directory.
+APM installs into the **current project directory**:
+- `apm_modules/` — downloaded dependencies (gitignored)
+- `.claude/` — compiled Claude Code output (generated)
+
+Skills are project-scoped, not user-global. Run `apm install` in each project that needs these skills.
 
 ## Skills
 
@@ -16,16 +28,8 @@ This reads `apm.yml` from the repo root, resolves all skill collections and agen
 |----------|--------|
 | **Frontend** | gsap-core, huashu-design, impeccable, taste-skill |
 | **General** | caveman, grill-me |
-| **Generative** | higgsfield-generate, higgsfield-marketplace-cards, higgsfield-product-photoshoot, higgsfield-soul-id |
+| **Generative** | higgsfield-generate, marketplace-cards, product-photoshoot, soul-id |
 | **Knowledge** | context7, gitnexus, graphify |
-
-## MCP Servers
-
-| Server | Purpose |
-|--------|---------|
-| context-mode | Persistent context with BM25 search |
-| browser | Browser automation via CDP |
-| github-mcp-server | GitHub API integration |
 
 ## Setup
 
