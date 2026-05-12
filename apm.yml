@@ -1,6 +1,6 @@
 name: cc-loadout
 version: 1.0.0
-description: Claude Code skill suite — frontend design, generative AI, knowledge graphs, compressed comms
+description: Claude Code skill suite
 
 # Install: apm install samcrock/cc-loadout
 # Or: git clone samcrock/cc-loadout && cd cc-loadout && apm install
@@ -13,9 +13,6 @@ dependencies:
     - github.com/samcrock/cc-loadout/.apm/skills/frontend/huashu-design
     - github.com/samcrock/cc-loadout/.apm/skills/frontend/impeccable
     - github.com/samcrock/cc-loadout/.apm/skills/frontend/taste-skill
-    # General
-    - github.com/samcrock/cc-loadout/.apm/skills/general/caveman
-    - github.com/samcrock/cc-loadout/.apm/skills/general/grill-me
     # Generative
     - github.com/samcrock/cc-loadout/.apm/skills/generative/higgsfield-generate
     - github.com/samcrock/cc-loadout/.apm/skills/generative/higgsfield-marketplace-cards
@@ -26,5 +23,7 @@ dependencies:
     - github.com/samcrock/cc-loadout/.apm/skills/knowledge/gitnexus
     - github.com/samcrock/cc-loadout/.apm/skills/knowledge/graphify
     # Productivity
+    - github.com/samcrock/cc-loadout/.apm/skills/productivity/caveman
+    - github.com/samcrock/cc-loadout/.apm/skills/productivity/grill-me
     - github.com/samcrock/cc-loadout/.apm/skills/productivity/skill-adder
     - github.com/samcrock/cc-loadout/.apm/skills/productivity/handoff

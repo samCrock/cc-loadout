@@ -27,10 +27,9 @@ Skills are project-scoped, not user-global. Run `apm install` in each project th
 | Category | Skills |
 |----------|--------|
 | **Frontend** | gsap-core, huashu-design, impeccable, taste-skill |
-| **General** | caveman, grill-me |
 | **Generative** | higgsfield-generate, marketplace-cards, product-photoshoot, soul-id |
 | **Knowledge** | context7, gitnexus, graphify |
-| **Productivity** | handoff (conversation → handoff doc), skill-adder (add new skills to suite) |
+| **Productivity** | caveman (compressed comms), grill-me (plan stress-testing), handoff, skill-adder |
 
 ## Setup
 
