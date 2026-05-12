@@ -30,6 +30,7 @@ Skills are project-scoped, not user-global. Run `apm install` in each project th
 | **General** | caveman, grill-me |
 | **Generative** | higgsfield-generate, marketplace-cards, product-photoshoot, soul-id |
 | **Knowledge** | context7, gitnexus, graphify |
+| **Internal** | skill-adder (add new skills to the suite) |
 
 ## Setup
 
