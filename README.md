@@ -4,10 +4,28 @@ Skill suite for Claude Code — frontend design, generative AI, knowledge graphs
 
 ## Install (project-level)
 
+**1. Install APM:**
+
+```bash
+# macOS / Linux
+curl -sSL https://aka.ms/apm-unix | sh
+
+# Windows (PowerShell)
+irm https://aka.ms/apm-windows | iex
+```
+
+Verify:
+```bash
+apm --version
+```
+
+**2. Initialize and install:**
+
 ```bash
 git clone samcrock/cc-loadout my-project
 cd my-project
-apm install
+apm init
+apm install samcrock/cc-loadout
 ```
 
 Or from an existing repo:
@@ -18,9 +36,11 @@ apm install samcrock/cc-loadout
 
 APM installs into the **current project directory**:
 - `apm_modules/` — downloaded dependencies (gitignored)
-- `.claude/` — compiled Claude Code output (generated)
+- `.agents/skills/` — integrated skills (harness-neutral)
 
 Skills are project-scoped, not user-global. Run `apm install` in each project that needs these skills.
+
+See the [APM quickstart](https://microsoft.github.io/apm/quickstart/) for full documentation.
 
 ## Skills
 
@@ -46,4 +66,4 @@ higgsfield auth login
 npx ctx7 setup --claude --cli
 ```
 
-See [microsoft/apm](https://github.com/microsoft/apm) for APM CLI docs.
+See [microsoft.github.io/apm](https://microsoft.github.io/apm) for APM CLI docs.
