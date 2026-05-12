@@ -1,54 +1,31 @@
 # cc-loadout
 
-Skill bundle for Claude Code agents.
+Skill suite for Claude Code agents — frontend design, generative AI, knowledge graphs, and compressed communication.
 
 ## Install
 
 ```bash
-/plugin marketplace add samcrock/cc-loadout
-/plugin install cc-loadout@cc-loadout
+apm install samcrock/cc-loadout
 ```
 
-## Skills by Category
+This reads `apm.yml` from the repo root, resolves all skill collections and agents, and installs them to your Claude Code skills directory.
 
-### General
+## Skills
 
-| Skill | Description |
-|-------|-------------|
-| caveman | Ultra-compressed comms — 75% token reduction |
-| grill-me | Plan stress-testing via relentless questioning |
+| Category | Skills |
+|----------|--------|
+| **Frontend** | gsap-core, huashu-design, impeccable, taste-skill |
+| **General** | caveman, grill-me |
+| **Generative** | higgsfield-generate, higgsfield-marketplace-cards, higgsfield-product-photoshoot, higgsfield-soul-id |
+| **Knowledge** | context7, gitnexus, graphify |
 
-### Knowledge & Docs
+## MCP Servers
 
-| Skill | Description |
-|-------|-------------|
-| context7 | Up-to-date code documentation via ctx7 |
-| graphify | Any input to knowledge graph with community detection |
-| gitnexus | Zero-server code intelligence + Graph RAG agent |
-
-### DevTools
-
-| Tool | Description |
-|------|-------------|
-| gitnexus | Browser-based knowledge graph from GitHub repos |
-
-### Frontend & Design
-
-| Skill | Description |
-|-------|-------------|
-| huashu-design | HTML hi-fi prototypes, slides, animations |
-| impeccable | Design vocabulary & anti-patterns |
-| taste-skill | Anti-slop frontend framework |
-| gsap-core | GSAP animation library |
-
-### Generative AI / Media
-
-| Skill | Description |
-|-------|-------------|
-| higgsfield-generate | Image/video generation, 30+ models |
-| higgsfield-soul-id | Face-faithful Soul Character training |
-| higgsfield-product-photoshoot | Brand-quality product imagery |
-| higgsfield-marketplace-cards | Marketplace product cards |
+| Server | Purpose |
+|--------|---------|
+| context-mode | Persistent context with BM25 search |
+| browser | Browser automation via CDP |
+| github-mcp-server | GitHub API integration |
 
 ## Setup
 
@@ -59,7 +36,10 @@ curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh |
 higgsfield auth login
 ```
 
-### Per-skill setup
+### context7 (library docs)
 
-- **graphify**: runs `graphify hook install` on postinstall
-- **context7**: runs `npx ctx7 setup --claude` on postinstall (requires API key)
+```bash
+npx ctx7 setup --claude --cli
+```
+
+See [microsoft/apm](https://github.com/microsoft/apm) for APM CLI docs.

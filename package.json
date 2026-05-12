@@ -1,10 +1,7 @@
 {
   "name": "cc-loadout",
   "version": "1.0.0",
-  "description": "Skill bundle for Claude Code: graphify, impeccable, context7, caveman, grill-me, huashu-design, gsap-core, taste-skill",
-  "scripts": {
-    "postinstall": "bash scripts/install-skills.sh"
-  },
+  "description": "Skill bundle for Claude Code",
   "claude": {
     "plugins": ["cc-loadout"]
   }

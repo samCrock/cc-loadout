@@ -11,79 +11,79 @@
     {
       "name": "graphify",
       "description": "Any input (code, docs, papers, images) to knowledge graph with community detection",
-      "source": "./skills/knowledge/graphify",
+      "source": "./.apm/skills/knowledge/graphify",
       "strict": false
     },
     {
       "name": "gitnexus",
       "description": "Zero-server code intelligence — knowledge graph + Graph RAG for codebase exploration",
-      "source": "./skills/knowledge/gitnexus",
+      "source": ""./.apm/skills/knowledge/gitnexus",
       "strict": false
     },
     {
       "name": "impeccable",
       "description": "Frontend design vocabulary — anti-patterns and impeccable design principles",
-      "source": "./skills/frontend/impeccable",
+      "source": ""./.apm/skills/frontend/impeccable",
       "strict": false
     },
     {
       "name": "context7",
       "description": "Up-to-date code documentation for LLMs via ctx7",
-      "source": "./skills/knowledge/context7",
+      "source": ""./.apm/skills/knowledge/context7",
       "strict": false
     },
     {
       "name": "caveman",
       "description": "Ultra-compressed communication mode — 75% token reduction",
-      "source": "./skills/general/caveman",
+      "source": ""./.apm/skills/general/caveman",
       "strict": false
     },
     {
       "name": "grill-me",
       "description": "Interview the user relentlessly about a plan or design until shared understanding",
-      "source": "./skills/general/grill-me",
+      "source": ""./.apm/skills/general/grill-me",
       "strict": false
     },
     {
       "name": "huashu-design",
       "description": "Type. Hit enter. A finished design lands in your lap.",
-      "source": "./skills/frontend/huashu-design",
+      "source": ""./.apm/skills/frontend/huashu-design",
       "strict": false
     },
     {
       "name": "gsap-core",
       "description": "GSAP animation library skill for frontend development",
-      "source": "./skills/frontend/gsap-core",
+      "source": ""./.apm/skills/frontend/gsap-core",
       "strict": false
     },
     {
       "name": "taste-skill",
       "description": "Anti-slop frontend framework for AI agents",
-      "source": "./skills/frontend/taste-skill",
+      "source": ""./.apm/skills/frontend/taste-skill",
       "strict": false
     },
     {
       "name": "higgsfield-generate",
       "description": "Image/video generation with 30+ models plus Marketing Studio",
-      "source": "./skills/generative/higgsfield-generate",
+      "source": ""./.apm/skills/generative/higgsfield-generate",
       "strict": false
     },
     {
       "name": "higgsfield-soul-id",
       "description": "Train a face-faithful Soul Character",
-      "source": "./skills/generative/higgsfield-soul-id",
+      "source": ""./.apm/skills/generative/higgsfield-soul-id",
       "strict": false
     },
     {
       "name": "higgsfield-product-photoshoot",
       "description": "Brand-quality product imagery",
-      "source": "./skills/generative/higgsfield-product-photoshoot",
+      "source": ""./.apm/skills/generative/higgsfield-product-photoshoot",
       "strict": false
     },
     {
       "name": "higgsfield-marketplace-cards",
       "description": "Marketplace main, secondary, and A+ style product cards",
-      "source": "./skills/generative/higgsfield-marketplace-cards",
+      "source": ""./.apm/skills/generative/higgsfield-marketplace-cards",
       "strict": false
     }
   ]
