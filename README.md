@@ -46,10 +46,10 @@ See the [APM quickstart](https://microsoft.github.io/apm/quickstart/) for full d
 
 | Category | Skills |
 |----------|--------|
-| **Frontend** | gsap-core, huashu-design, impeccable, taste-skill |
+| **Frontend** | gsap-core, gsap-timeline, gsap-scrolltrigger, gsap-plugins, gsap-react, gsap-utils, gsap-performance, gsap-frameworks, huashu-design, impeccable, taste-skill |
 | **Generative** | higgsfield-generate, marketplace-cards, product-photoshoot, soul-id |
 | **Knowledge** | context7, gitnexus, graphify |
-| **Productivity** | caveman (compressed comms), grill-me (plan stress-testing), handoff, skill-adder |
+| **Productivity** | caveman (compressed comms), grill-me (plan stress-testing), handoff, skill-adder, apm-converter |
 
 ## Setup
 

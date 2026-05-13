@@ -7,23 +7,5 @@ description: Claude Code skill suite
 
 dependencies:
   apm:
-    # Skill collections — installed as .apm/skills/{category}/{name}/
-    # Frontend
-    - github.com/samcrock/cc-loadout/.apm/skills/frontend/gsap-core
-    - github.com/samcrock/cc-loadout/.apm/skills/frontend/huashu-design
-    - github.com/samcrock/cc-loadout/.apm/skills/frontend/impeccable
-    - github.com/samcrock/cc-loadout/.apm/skills/frontend/taste-skill
-    # Generative
-    - github.com/samcrock/cc-loadout/.apm/skills/generative/higgsfield-generate
-    - github.com/samcrock/cc-loadout/.apm/skills/generative/higgsfield-marketplace-cards
-    - github.com/samcrock/cc-loadout/.apm/skills/generative/higgsfield-product-photoshoot
-    - github.com/samcrock/cc-loadout/.apm/skills/generative/higgsfield-soul-id
-    # Knowledge
-    - github.com/samcrock/cc-loadout/.apm/skills/knowledge/context7
-    - github.com/samcrock/cc-loadout/.apm/skills/knowledge/gitnexus
-    - github.com/samcrock/cc-loadout/.apm/skills/knowledge/graphify
     # Productivity
-    - github.com/samcrock/cc-loadout/.apm/skills/productivity/caveman
-    - github.com/samcrock/cc-loadout/.apm/skills/productivity/grill-me
-    - github.com/samcrock/cc-loadout/.apm/skills/productivity/skill-adder
-    - github.com/samcrock/cc-loadout/.apm/skills/productivity/handoff
+    - github.com/samcrock/cc-loadout/.apm/skills/productivity/apm-converter
