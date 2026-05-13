@@ -1,0 +1,45 @@
+# APM dependencies
+.apm_modules/
+apm_modules/
+
+# APM lockfile (commit this, but ignore changes from non-apm sources)
+apm.lock.yaml
+
+# Agent skills (generated)
+.agents/
+.agents/**/
+
+# Claude Code local data
+.claude/
+.claude/**/
+!.claude/settings.json
+
+# APM auto-generated marketplace
+.claude-plugin/
+.claude-plugin/**
+build/
+dist/
+
+# Editor directories
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Language-specific
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp

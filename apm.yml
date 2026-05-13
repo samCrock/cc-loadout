@@ -1,11 +1,11 @@
-name: cc-loadout
+name: apm-loadout
 version: 1.0.0
-description: Claude Code skill suite
+description: APM skill installation and conversion toolkit
 
-# Install: apm install samcrock/cc-loadout
-# Or: git clone samcrock/cc-loadout && cd cc-loadout && apm install
+# Install: apm install samcrock/apm-loadout
+# Or: git clone samcrock/apm-loadout && cd apm-loadout && apm install
 
 dependencies:
   apm:
     # Productivity
-    - github.com/samcrock/cc-loadout/.apm/skills/productivity/apm-converter
+    - github.com/samcrock/apm-loadout/.apm/skills/productivity/apm-converter

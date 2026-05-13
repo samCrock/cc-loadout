@@ -1,4 +1,4 @@
-# cc-loadout
+# apm-loadout
 
 Claude Code skill installation and conversion toolkit.
 
@@ -17,7 +17,7 @@ curl -sSL https://aka.ms/apm-unix | sh  # macOS/Linux
 irm https://aka.ms/apm-windows | iex      # Windows
 
 # Install this package
-apm install samcrock/cc-loadout
+apm install samcrock/apm-loadout
 ```
 
 ## What's Included
