@@ -1,8 +1,0 @@
-{
-  "name": "cc-loadout",
-  "version": "1.0.0",
-  "description": "Skill bundle for Claude Code",
-  "claude": {
-    "plugins": ["cc-loadout"]
-  }
-}

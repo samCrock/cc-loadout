@@ -1,69 +1,57 @@
 # cc-loadout
 
-Skill suite for Claude Code — frontend design, generative AI, knowledge graphs, compressed comms.
+Claude Code skill installation and conversion toolkit.
 
-## Install (project-level)
+## Purpose
 
-**1. Install APM:**
+This repo serves two roles:
 
-```bash
-# macOS / Linux
-curl -sSL https://aka.ms/apm-unix | sh
+1. **APM package** — Install to get the `apm-converter` skill
+2. **Skill catalog** — `docs/repos.md` lists available skills for conversion
 
-# Windows (PowerShell)
-irm https://aka.ms/apm-windows | iex
-```
-
-Verify:
-```bash
-apm --version
-```
-
-**2. Initialize and install:**
+## Install
 
 ```bash
-git clone samcrock/cc-loadout my-project
-cd my-project
-apm init
+# Install APM
+curl -sSL https://aka.ms/apm-unix | sh  # macOS/Linux
+irm https://aka.ms/apm-windows | iex      # Windows
+
+# Install this package
 apm install samcrock/cc-loadout
 ```
 
-Or from an existing repo:
+## What's Included
+
+| Path | Purpose |
+|------|---------|
+| `.apm/skills/productivity/apm-converter/` | Bridge skill — converts non-APM skills to APM format |
+| `docs/repos.md` | Catalog of available skills (GitHub repos) |
+
+## Workflow
+
+1. **Install this package** → Get `apm-converter` skill
+2. **Browse** `docs/repos.md` → Find skills to add
+3. **Convert** → Use `apm-converter` to convert skill from GitHub
+4. **Update** → Use `apm outdated` / `apm deps update` to track upstream
+
+## Converting a Skill
 
 ```bash
-apm install samcrock/cc-loadout
+# Convert a skill from GitHub
+apm-converter owner/repo/skill --category frontend
+
+# Check for upstream updates
+apm outdated
+
+# Update to latest upstream version
+apm deps update
 ```
 
-APM installs into the **current project directory**:
-- `apm_modules/` — downloaded dependencies (gitignored)
-- `.agents/skills/` — integrated skills (harness-neutral)
+## Skills Catalog
 
-Skills are project-scoped, not user-global. Run `apm install` in each project that needs these skills.
+See [docs/repos.md](docs/repos.md) for the list of available skills.
 
-See the [APM quickstart](https://microsoft.github.io/apm/quickstart/) for full documentation.
+## Documentation
 
-## Skills
-
-| Category | Skills |
-|----------|--------|
-| **Frontend** | gsap-core, gsap-timeline, gsap-scrolltrigger, gsap-plugins, gsap-react, gsap-utils, gsap-performance, gsap-frameworks, huashu-design, impeccable, taste-skill |
-| **Generative** | higgsfield-generate, marketplace-cards, product-photoshoot, soul-id |
-| **Knowledge** | context7, gitnexus, graphify |
-| **Productivity** | caveman (compressed comms), grill-me (plan stress-testing), handoff, skill-adder, apm-converter |
-
-## Setup
-
-### HiggsField CLI (generative skills)
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh
-higgsfield auth login
-```
-
-### context7 (library docs)
-
-```bash
-npx ctx7 setup --claude --cli
-```
-
-See [microsoft.github.io/apm](https://microsoft.github.io/apm) for APM CLI docs.
+- [APM quickstart](https://microsoft.github.io/apm/quickstart/)
+- [APM CLI reference](https://github.com/microsoft/apm)
