@@ -25,14 +25,15 @@ apm install samcrock/apm-loadout
 | Path | Purpose |
 |------|---------|
 | `.apm/skills/productivity/apm-converter/` | Bridge skill — converts non-APM skills to APM format |
+| `.apm/instructions/apm-loadout.instructions.md` | Instructions compiled into CLAUDE.md |
 | `docs/repos.md` | Catalog of available skills (GitHub repos) |
 
 ## Workflow
 
-1. **Install this package** → Get `apm-converter` skill
-2. **Browse** `docs/repos.md` → Find skills to add
-3. **Convert** → Use `apm-converter` to convert skill from GitHub
-4. **Update** → Use `apm outdated` / `apm deps update` to track upstream
+1. **Install** → `apm install samcrock/apm-loadout`
+2. **Compile** → `apm compile --target claude` — merges instructions into CLAUDE.md
+3. **Install all** → Tell Claude Code: "Install all skills from docs/repos.md"
+4. **Update** → `apm outdated` / `apm deps update` to track upstream
 
 ## Converting a Skill
 
