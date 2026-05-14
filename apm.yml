@@ -7,6 +7,4 @@ includes:
   - .apm/skills/productivity/apm-converter
 
 dependencies:
-  apm:
-    # Productivity
-    - github.com/samcrock/apm-loadout/.apm/skills/productivity/apm-converter
+  apm: []
