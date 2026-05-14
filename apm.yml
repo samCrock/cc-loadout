@@ -1,9 +1,10 @@
 name: apm-loadout
 version: 1.0.0
 description: APM skill installation and conversion toolkit
-
-# Install: apm install samcrock/apm-loadout
-# Or: git clone samcrock/apm-loadout && cd apm-loadout && apm install
+includes:
+  - docs/repos.md
+  - .apm/instructions/apm-loadout.instructions.md
+  - .apm/skills/productivity/apm-converter
 
 dependencies:
   apm:
